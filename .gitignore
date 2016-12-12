@@ -2,3 +2,5 @@
 /.idea
 /typings
 /public/js
+.vscode/
+*/.DS_Store
