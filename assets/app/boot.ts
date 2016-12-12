@@ -1,6 +1,6 @@
 ///<reference path="../../typings.d.ts"/>
-import { bootstrap } from '@angular/platform-browser-dynamic';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { AppComponent } from "./app.component";
+import { AppModule } from "./app.module";
 
-bootstrap(AppComponent);
+platformBrowserDynamic().bootstrapModule(AppModule);
